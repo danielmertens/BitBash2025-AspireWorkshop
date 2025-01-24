@@ -12,6 +12,8 @@ builder.Services.AddScoped<ITransmitter, FakeMessageTransmitter>();
 builder.Services.AddScoped<IGhostManagerPublisher, GhostManagerPublisher>();
 builder.Services.AddScoped<IPathFinderPublisher, PathFinderPublisher>();
 
+builder.AddRabbitMQClient(connectionName: "messaging");
+
 builder.Services.AddSingleton((provider) =>
 {
     var configuration = provider.GetRequiredService<IConfiguration>();
