@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34417.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.AppHost", "GhostTracker.AppHost\GhostTracker.AppHost.csproj", "{5AF5216F-4F9E-4439-ADCD-476E92374C8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.ServiceDefaults", "GhostTracker.ServiceDefaults\GhostTracker.ServiceDefaults.csproj", "{76B8A969-CF08-41C2-AF8B-F594107BE0C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.Bff", "GhostTracker.Bff\GhostTracker.Bff.csproj", "{94BA356D-2B9D-45C3-9481-847E35B38318}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.GhostManager", "GhostTracker.GhostManager\GhostTracker.GhostManager.csproj", "{6400A142-04DE-4F03-A96F-5370D6C965A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.PathFinderApi", "GhostTracker.PathFinderApi\GhostTracker.PathFinderApi.csproj", "{CDE65E4C-973C-4C61-8CFD-589D9AFDDFD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostTracker.Transmitter", "GhostTracker.Transmitter\GhostTracker.Transmitter.csproj", "{37AC7C01-D88B-49A8-832C-C61497822446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostTracker.Transmitter.RabbitMQ", "GhostTracker.Transmitter.RabbitMQ\GhostTracker.Transmitter.RabbitMQ.csproj", "{0DE33D2F-AB4B-42B1-B96C-61A73DB60299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF5216F-4F9E-4439-ADCD-476E92374C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF5216F-4F9E-4439-ADCD-476E92374C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF5216F-4F9E-4439-ADCD-476E92374C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF5216F-4F9E-4439-ADCD-476E92374C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B8A969-CF08-41C2-AF8B-F594107BE0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B8A969-CF08-41C2-AF8B-F594107BE0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B8A969-CF08-41C2-AF8B-F594107BE0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B8A969-CF08-41C2-AF8B-F594107BE0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BA356D-2B9D-45C3-9481-847E35B38318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BA356D-2B9D-45C3-9481-847E35B38318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BA356D-2B9D-45C3-9481-847E35B38318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BA356D-2B9D-45C3-9481-847E35B38318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6400A142-04DE-4F03-A96F-5370D6C965A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6400A142-04DE-4F03-A96F-5370D6C965A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6400A142-04DE-4F03-A96F-5370D6C965A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6400A142-04DE-4F03-A96F-5370D6C965A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE65E4C-973C-4C61-8CFD-589D9AFDDFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE65E4C-973C-4C61-8CFD-589D9AFDDFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE65E4C-973C-4C61-8CFD-589D9AFDDFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE65E4C-973C-4C61-8CFD-589D9AFDDFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AC7C01-D88B-49A8-832C-C61497822446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AC7C01-D88B-49A8-832C-C61497822446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AC7C01-D88B-49A8-832C-C61497822446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AC7C01-D88B-49A8-832C-C61497822446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE33D2F-AB4B-42B1-B96C-61A73DB60299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE33D2F-AB4B-42B1-B96C-61A73DB60299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE33D2F-AB4B-42B1-B96C-61A73DB60299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE33D2F-AB4B-42B1-B96C-61A73DB60299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A7AC130-33BE-4B5B-99AF-D4A049A38C88}
+	EndGlobalSection
+EndGlobal
